@@ -304,7 +304,8 @@ function App() {
 
             })
 
-          ) : (
+          ) : 
+          (
             <p className="text-gray-500 text-lg mt-5">Your cart is empty</p>
           )
         }
