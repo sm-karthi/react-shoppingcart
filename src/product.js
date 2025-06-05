@@ -11,7 +11,8 @@ function Product({data, updateCart, cart}) {
 
         <div className='flex flex-col border border-gray-200 bg-white shadow-lg rounded-lg p-3 w-60 gap-3'>
 
-            <img src={data.image} alt='Prodect image' className='h-44'></img>
+            <img src={data.image} alt={data.title} className='h-44' />
+
 
             <h4 className="text-gray-500 font-bold">{data.title.slice(0, 40)}...</h4>
 
